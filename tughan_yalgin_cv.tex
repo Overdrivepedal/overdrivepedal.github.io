@@ -1,0 +1,243 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle[norules]{banking}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{red}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\usepackage[scale=0.7]{geometry}
+\usepackage[turkish]{babel}
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{changepage}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% personal data
+\name{Tuğhan}{Yalgın}
+\title{Resumé}                               % optional, remove / comment the line if not wanted
+\address{Kadıköy}{İstanbul}{Turkey}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+90~(507)~997~2089}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{tughanyalgin@gmail.com}                      % optional, remove / comment the line if not wanted
+\homepage{www.tughanyalgin.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{tughanyalgin}                        % optional, remove / comment the line if not wanted
+\social[twitter]{tughanyalgin}                             % optional, remove / comment the line if not wanted
+% \extrainfo{}                 % optional, remove / comment the line if not wanted
+\quote{Game Designer, Level Designer, Writer}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace{-0.75cm}
+
+\section{Education}
+\cventry{2015 -- cont'd}{(MS) International Business Administration}{İstanbul University}{İstanbul}{}{}
+\cventry{2007 -- 2013}{(BS) Econometrics}{İstanbul University}{İstanbul}{}{}
+\cventry{2003 -- 2007}{High School}{Çiğli M.P. Anatolian High School}{İzmir}{}{}
+
+\section{Experience}
+\subsection{Vocational}
+\cventry{Apr 2015 -- cont'd}{Game Designer}{6x13 Games}{İstanbul}{}{%
+Worked on  Twiniwt that is globally  featured on the App  Store, and
+1FPS retro game series.\\
+1FPS contains 3  free-to-play arcade games on  mobile platforms. The
+design is  simple yet deep enough  to min/max, leaves room  for more
+advanced tactics.\\
+Twiniwt is an F2P symmetrical puzzle title. The game has innovative,
+unique mechanics, and interactive audio. Took the roles of:
+\begin{itemize}%
+\item Level Designer
+\item Progression Designer
+\item As. Game Designer
+\item Audio Designer
+\item QA \& Playtesting
+\item Content Creator
+\end{itemize}
+Games of 1FPS Retro Game Series:%
+\begin{itemize}%
+\item 1FPS: Invaders
+\item 1FPS: Fastfood
+\item 1FPS: Vacuum
+\end{itemize}}
+\bigskip{}
+
+\cventry{Mar 2017 -- May 2017}{Game Designer}{Infosfer}{İstanbul}{}{%
+Game systems designer role, on around 20 F2P casual, mostly one-tap, arcade projects for mobile platforms.%
+\newline{}%
+My responsibilities include:%
+\begin{itemize}%
+\item Game Design
+\item Systems Design (Progression funnels, algorithms for endless gameplay, difficulty, other numerical basis)
+\item Data Analysis
+\end{itemize}}
+
+\bigskip{}
+
+\cventry{Dec 2016 -- Mar 2017}{Game Director, Game Designer}{Codemodeon}{İstanbul}{}{%
+Working on the story-driven PC VR project "Header Goal VR: Being Axel Rix" that’s
+currently on early access stage.%
+\newline{}%
+My responsibilities include:%
+\begin{itemize}%
+\item Game Design
+\item Level Design
+\item Story Writing
+\item General Concept
+\item Data Analysis
+\end{itemize}%
+Header Goal VR so far:%
+\begin{itemize}%
+\item 3rd Place in VR Indie Pitch Helsinki.
+\item Nominated for "Best Indie Game" prize in Casual Connect Berlin 2017.
+\end{itemize}}
+
+\bigskip{}
+
+\cventry{Nov 2015 -- Dec 2016}{Lead Writer, Game Designer}{Pera Games}{İstanbul}{}{%
+Worked on Overfall. An indie RPG/Roguelite project that's released on Steam.%
+\newline{}%
+Detailed achievements:%
+\begin{itemize}%
+\item Writing and editing;
+  \begin{itemize}%
+  \item quests,
+  \item random encounters,
+  \item battles.
+  \end{itemize}
+\item Working on the general script,
+\item Level and scene design,
+\item Game design, game balance and game economy.
+\item Keeping high emphasis on stories with several arcs, multiple choices, and different outcomes.
+\end{itemize}}
+\smallskip{}
+\begin{adjustwidth}{2.5em}{2.5em}
+\small{
+``I’ve had so many encounters of such variety in story, depth, character, tone and terminal wounding that you’d be forgiven for thinking that developers Pera Games had plundered a whole bookstore’s worth of short story compilations to fill their game with.''
+\textit{ - Jamie Parry-Bruce, GameSpew}}
+\end{adjustwidth}
+
+\bigskip{}
+
+\cventry{Sep 2015 -- Nov 2015}{Lead Game Designer}{PlanetrevolVR}{San Francisco \textsc{[remote]}}{}{Interaction design and level design for a mobile VR project.}
+
+\bigskip{}
+
+\cventry{Apr 2015 -- Sep 2015}{Freelance Writer, Game Designer}{Freelance}{}{}{Worked as a freelance game writer, game designer, and level designer.}
+
+\bigskip{}
+
+\cventry{Mar 2015 -- Apr 2015}{Level Designer}{Gram Games}{İstanbul}{}{Data-driven level design for F2P casual match-tree game.}
+
+\bigskip{}
+
+\cventry{Jan 2014 -- Mar 2015}{Game Designer, Game Analyst}{Ekseriya Studios}{İstanbul}{}{Game design, concept, story, and game balance for 3 titles.%
+\newline{}%
+Data analysis for mobile F2P game projects.%
+\newline{}%
+Designing UX and balance algorithms for online board games.}
+
+\bigskip{}
+
+\subsection{Miscellaneous}
+\cventry{Jan 2014 -- Mar 2015}{Translator}{Discovery Channel}{İstanbul}{}{English-Turkish translator for Discovery Channel Magazine-Turkey.}
+
+\bigskip{}
+
+\cventry{Sep 2013 -- Nov 2013}{Operations, Auditing}{Tera FX}{İstanbul}{}{}
+
+\bigskip{}
+
+\cventry{Mar 2012 -- May 2013}{User Acquisition R\&D, Data Analyst}{SporApp}{İstanbul}{}{User-based statistical analysis; R\&D on methods of user acquisition, economic modelling.}
+
+\section{Languages}
+\cvitemwithcomment{English}{Advanced}{TOEFL-IBT (104)}
+\cvitemwithcomment{French}{Beginner}{}
+\cvitemwithcomment{Turkish}{Native speaker}{}
+
+\clearpage
+
+\section{Computer skills}
+\cvitem{Game Development}{Unity3D Editor, UE4 Editor, Blueprint Scripting, Serialization Formats}
+\cvitem{Office Software}{Word Processors, Spreadsheets, Presentations in MS Office etc.}
+\cvitem{Multimedia}{LMMS (Music composition), Inkscape (Vector Editing Tool)}
+\cvitem{Operating Systems}{Microsoft Windows, Mac OSX}
+\cvitem{Statistical Software}{R Language, E-views, SPSS, Stata}
+\cvitem{Text Editors}{Sublime Text, Emacs}
+
+\section{Interests}
+\begin{itemize}%
+\item Computer Games, Theorycraft, Min-maxing
+\item FRP Board Games - Game Master
+\item Statistics and Economics
+\item Writing
+
+\end{itemize}%
+
+\section{References}
+\cventry{}{6x13 Games}{Kenan Bölükbaşı}{}{CEO}{\href{mailto:kenanbolukbasi@gmail.com}{kenanbolukbasi@gmail.com}}
+\bigskip{}
+\cventry{}{Pera Games}{Bulut Karakaya}{}{CTO}{\href{mailto:bulutk@gmail.com}{bulutk@gmail.com}}
+\bigskip{}
+\cventry{}{Pera Games}{İbrahim Yıldırım}{}{CEO}{\href{mailto:ibrahim@pera.gs}{ibrahim@pera.gs}}
+\bigskip{}
+\cventry{}{İstanbul University – Department of Econometrics}{Assoc. Prof. Mehmet Hakan Satman}{}{Operational Research/Numerical Methods}{\href{mailto:mhsatman@istanbul.edu.tr}{mhsatman@istanbul.edu.tr}}
+% \bigskip{}
+% \cventry{}{Masomo}{Arda Örer}{}{System Administrator}{\href{mailto:arda.orer@gmail.com}{arda.orer@gmail.com}}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+% \clearpage
+% %-----       letter       ---------------------------------------------------------
+% % recipient data
+% \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+% \date{January 01, 1984}
+% \opening{Dear Sir or Madam,}
+% \closing{Yours faithfully,}
+% \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+% \makelettertitle
+
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+% Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+% \makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
